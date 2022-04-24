@@ -1,0 +1,117 @@
+.link-modal {
+    .ant-table-pagination.ant-pagination {
+        margin-bottom: 0;
+    }
+
+    .m-hd {
+        margin-bottom: 15px;
+        .col-source, .col-target, .col-relation {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+        .col-relation {
+            .line {
+                position: absolute;
+                top: 50%;
+                left: 10px;
+                right: 10px;
+                margin-top: -1px;
+                height: 2px;
+                z-index: 1;
+                border-bottom: 1px solid #e2e2e2;
+            }
+            .anticon-left, .anticon-right {
+                position: absolute;
+                top: 50%;
+                margin-top: -6px;
+                font-size: 14px;
+                color: #e2e2e2;
+            }
+            .anticon-left {
+                left: -6px;
+            }
+            .anticon-right {
+                right: -6px;
+            }
+            .text {
+                max-width: calc(~'100% - 60px');
+                padding: 0 10px;
+                z-index: 2;
+                background: #fff;
+            }
+        }
+        .node-type {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: no-repeat center center;
+            background-size: 100%;
+        }
+        .node-value {
+            display: inline-block;
+            max-width: calc(~'100% - 30px');
+            padding: 0 10px;
+        }
+        .col-source {
+            border-right: 1px solid #e2e2e2;
+        }
+        .col-target {
+            border-left: 1px solid #e2e2e2;
+        }
+    }
+    .m-bd {
+        .ant-tabs-bar {
+            margin-bottom: 0;
+        }
+        .ant-table-thead {
+            display: none;
+        }
+        .ant-table-pagination {
+            float: none;
+            text-align: center;
+        }
+        .ant-table-tbody > tr > td {
+            padding: 10px 8px;
+        }
+        .col-label {
+            width: 180px;
+            font-weight: bold;
+            text-align: right;
+        }
+        .col-value {
+            margin-left: 190px;
+            text-align: justify;
+        }
+    }
+
+    .detail-list {
+        .ant-rate {
+            margin-left: 10px;
+            font-size: 14px;
+        }
+        .source-row .text {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    .trial-list {
+        .col-label {
+            width: 100px;
+        }
+        .col-value {
+            margin-left: 110px;
+        }
+    }
+    .pub-list {
+        .col-label {
+            width: 80px;
+        }
+        .col-value {
+            margin-left: 90px;
+        }
+    }
+}

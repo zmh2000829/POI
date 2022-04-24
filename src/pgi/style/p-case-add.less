@@ -1,0 +1,188 @@
+html { height: 100%; overflow:auto; }
+body { height: 100%; }
+.ant-modal {
+    top: 40px;
+}
+.popover {
+    p {
+        margin-bottom: 3px;
+    }
+}
+.container {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.85);
+
+    .introduction {
+        position: relative;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .introduction-title-1 {
+            text-align: center;
+            line-height: 48px;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: -1px;
+            color: #004689;
+        }
+        .introduction-title {
+            text-align: center;
+            line-height: 42px;
+            font-size: 25px;
+            font-weight: bold;
+            span {
+                color: #004689;
+            }
+        }
+        .introduction-text {
+            width: 80%;
+            text-align: center;
+            font-size: 17px;
+            margin-top: 16px;
+            p {
+                margin-bottom: 0px;
+            }
+        }
+        .introduction-image {
+            position: relative;
+            margin-top: 15px;
+            width: 105%;
+
+            .introduction-img {
+                margin-top: 10px;
+                width: 100%;
+            }
+        }
+        .introduction-btn {
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            margin-top: 25px;
+            Button {
+                background-color: #c2244b;
+                color: white;
+            }
+        }
+        .introduction-line {
+            margin-top: 5px;
+            position: relative;
+            width: 100%;
+            left: 0%;
+            height: 3px;
+            background-color: #bababa;
+        }
+        .introduction-hint {
+            position: relative;
+            width: 80%;
+            line-height: 40px;
+            text-align: center;
+            a {
+                color: #db9329;
+            }
+        }
+    }
+
+    .basic-info {
+        width: 70%;
+
+        .basic-info-title {
+            font-size: 18px;
+            text-align: left;
+            color: #0651a5;
+            width: 100%;
+            .basic-info-title-flow {
+                display: flex;
+                align-items: center;
+                font-weight: bold;
+                width: 100%;
+
+                .popover {
+                    p {
+                        margin-bottom: 3px;
+                    }
+                }
+                .basic-info-title-icon {
+                    margin-left: 3px;
+                    width: 10%;
+                }
+                .basic-info-title-tag {
+                    margin-left: 52%;
+                    margin-bottom: 2px;
+                }
+            }
+            
+            .basic-info-title-line {
+                margin-top: 5px;
+                position: relative;
+                width: 100%;
+                left: 0%;
+                height: 2px;
+                background-color: #f2f2f2;
+            }
+        }
+        .basic-info-content {
+            font-size: 16px;
+            position: relative;
+            left: 10%;
+
+            .basic-info-content-row {
+                margin-top: 5px;
+                line-height: 30px;
+                
+                .basic-info-content-row-line {
+                    display: flex;
+                    font-weight: bold;
+                    justify-content: flex-end;
+                    margin-right: 15px;
+                }
+                .star {
+                    color: red;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .submit-wrap {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+
+        .submit-wrap-btns {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+            Button:first-child {
+                background-color: #c2244b;
+                color: white;
+            }
+            .submit-wrap-btn {
+                width: 15%;
+                margin-right: 20px;
+            }
+        }
+        .submit-wrap-tips {
+            display: flex;
+            align-items: center;
+            a {
+                color: #db9329;
+            }
+        }
+        
+    }
+}
+
+

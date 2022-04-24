@@ -1,0 +1,54 @@
+.snw-filter-layer {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 40px;
+    box-sizing: border-box;
+    overflow: auto;
+    .block-hd {
+        line-height: 36px;
+        font-size: 18px;
+        font-weight: 500;
+        border-bottom: 1px solid #e9e9e9;
+        .ant-checkbox-wrapper {
+            margin-right: 8px;
+        }
+    }
+    .block-bd {
+        padding: 10px 0;
+        .count {
+            .current {
+                color: #1890ff;
+            }
+            .current.not-empty {
+                color: #c33;
+            }
+        }
+    }
+    .block-link, .item,
+    .block-rlat, .rlat-item {
+        .item {
+            line-height: 36px;
+        }
+    }
+    .block-rlat .block-bd {
+        height: 236px;
+    }
+    .block-level {
+        .block-bd {
+            padding: 10px 20px;
+        }
+    }
+    .block-btn {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background: #f6f6f6;
+        .btn-filter {
+            margin-right: 20px;
+        }
+    }
+}

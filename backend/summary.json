@@ -1,0 +1,31 @@
+{
+  "Therapies": 10,
+  "Alterations": 50,
+  "Input": "somatic variant, germline variant, tumor-only expression profile",
+  "Level A": {
+    "normal": ["Talazoparib", "Olaparib", "Abemaciclib", "Abemaciclib + Aromatase Inhibitor"],
+    "conflict": [],
+    "resistance": []
+  },
+  "Level B": {
+    "normal": ["Ado-Trastuzumab Emtansine + Endocrine Therapy", "Aromatase Inhibitor + Trastuzumab", "Carboplatin + Docetaxel + Trastuzumab"],
+    "conflict": [],
+    "resistance": ["Pertuzumab"]
+  },
+  "Level C": {
+    "normal": [],
+    "conflict": ["Neratinib"],
+    "resistance": []
+  },
+  "Level D": {
+    "normal": [],
+    "conflict": ["Osimertinib"],
+    "resistance": []
+  },
+  "Level E": {
+    "normal": [],
+    "conflict": [],
+    "resistance": ["PI3Ka/Di"]
+  }
+}
+

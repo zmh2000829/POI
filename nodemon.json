@@ -1,0 +1,14 @@
+{
+    "watch": [
+        "build/",
+        "config/",
+        "mock/"
+    ],
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js",
+    "events": {
+        "restart": "osascript -e 'display notification \"app restarted\" with title \"nodemon\"'"
+    }
+}

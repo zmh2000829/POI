@@ -1,0 +1,173 @@
+@import '../../common/style/theme/default.less';
+
+.faq-container {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+
+    .faq-left{
+        position: relative;
+        width: 70%;
+        left: 5%;
+
+        .faq-left-title {
+            font-size: 30px;
+            line-height: 60px;
+            font-weight: bold;
+        }
+
+        .faq-left-subtitle {
+            font-size: 23px;
+            line-height: 42px;
+            font-weight: bold;
+            a {
+                color: #0551A5;
+            }
+
+            .subtitle-line {
+                margin-top: 5px;
+                margin-bottom: 10px;
+                position: relative;
+                width: 80%;
+                left: 0%;
+                height: 2px;
+                background-color: #bababa;
+            }
+        }
+
+        .faq-left-content { 
+            line-height: 40px;
+            width: 90%;
+            a {
+                font-size: 18px;
+                font-weight: bold;
+                color: #1f1f1f;
+            }
+            .faq-left-content-sub {
+                color: rgba(58, 110, 180, 0.85);
+                margin-top: 10px;
+                margin-bottom: 8px;
+                font-size: 16px;
+                line-height: 25px;
+            }
+            .faq-left-content-text {
+                font-size: 16px;
+                line-height: 25px;
+                margin-bottom: 6px;
+
+                .b {
+                    color: #0A6DD9;
+                }
+            }
+            .faq-left-content-text-last {
+                font-size: 16px;
+                line-height: 25px;
+                margin-bottom: 6px;
+                a {
+                    font-size: 16px;
+                    font-weight: normal;
+                    color: #0A6DD9;
+                }
+            }
+            .faq-left-content-img {
+                text-align: center;
+                margin-top: 15px;
+            }
+        }
+        .faq-left-conten-ref {
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+
+    .faq-right {
+        position: relative;
+        width: 20%;
+        font-family: 'Chinese Quote', 'Segoe UI', Roboto, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        
+        .faq-right-div {
+            margin-top: 50px;
+            height: 90%;
+            position: fixed;
+            top: 0;
+            bottom:0;
+            overflow-y:scroll;
+            overflow-x:hidden;
+
+            .faq-right-content {
+                position: relative;
+                top: 5%;
+                width: 100%;
+                height: 100%;
+                color: gray;
+                border-left: 2px solid #e8e8e8;
+                overflow: auto;
+                .faq-right-content-title {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 8px;
+                    height: 22px;
+                    font-size: 16px;
+                    line-height: 35px;
+                    margin-bottom: 6px;
+                    white-space: nowrap;
+                    border-left: 2px solid transparent;
+                    
+                    .faq-right-content-inner {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        -webkit-line-clamp: 1;
+                        a {
+                            color: #595959;
+                        }
+                        a:hover {
+                            font-weight:bold;
+                        }
+                    }
+                }         
+                .faq-right-content-subtitle {
+                    width: 70%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 30px;
+                    height: 22px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    margin-bottom: 6px;
+                    white-space: nowrap;
+                    border-left: 2px solid transparent;
+                    
+                    .faq-right-content-inner {
+                        width: 75%;
+                        white-space: nowrap; 
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        a {
+                            color: #595959;
+                        }
+                        a:hover {
+                            font-weight:bold;
+                        }
+                    }
+                    .faq-right-content-inner-in {
+                        width: 75%;
+                        margin-left: 15px;
+                        white-space: nowrap; 
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        a {
+                            color: #595959;
+                        }
+                        a:hover {
+                            font-weight:bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
